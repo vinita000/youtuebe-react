@@ -8,3 +8,7 @@ export const SEARCH_VIDEO_API =
   "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 
 export const OFFSET_LIVE_CHAT = 25
+
+export const ADD_TODO = "ADD_TODO";
+export const UPDATE_TODO = "UPDATE_TODO";
+export const DELETE_TODO = "DELETE_TODO";

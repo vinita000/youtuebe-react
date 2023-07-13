@@ -8,6 +8,7 @@ import MainContainer from "./components/MainContainer";
 import WatchPage from "./components/WatchPage";
 import Demo from "./components/Demo";
 import Demo2 from './components/Demo2';
+import TodoList from './components/TodoList'
 
 const appRouter = createBrowserRouter([{
   path: "/",
@@ -24,7 +25,11 @@ const appRouter = createBrowserRouter([{
     {
       path: "/demo",
       element: <><Demo /><Demo2 /></>,
-    }
+    },
+    {
+      path: "/todolist",
+      element: <TodoList />,
+    },
   ]
 }
 ]);
